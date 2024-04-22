@@ -76,7 +76,6 @@ class Validate():
         inputpath = self.args[2]
         is_inputfile = os.path.isfile(inputpath)
 
-        # 入力ファイルがなければやり直し
         if is_inputfile:
             return True
         else:
@@ -87,7 +86,6 @@ class Validate():
         outputpath = self.args[3]
         is_outputfile = os.path.isfile(outputpath)
 
-        # すでに存在しているファイル名ならやり直し
         if is_outputfile:
             return False
         else:
