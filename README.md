@@ -23,7 +23,7 @@ outputfile_pathはプログラム実行後に生成される.htmlファイルパ
 
 #### 実行例
 ```bash
-$ python markdown main.py sample.md sample.html
+$ python main.py　markdown sample.md sample.html
 ```
 
 &nbsp;
